@@ -6,6 +6,6 @@ services:
     stdin_open: true
     tty: true
     volumes:
-      - ~/workshop-sources/jdk:/tmp/workshop-sources/jdk
-      - ~/workshop-sources/jtreg:/tmp/workshop-sources/jtreg
-      - ~/workshop-sources/openjdk-workshop:/tmp/workshop-sources/openjdk-workshop
+      - /tmp/sources/jdk:/tmp/sources/jdk
+      - /tmp/sources/jtreg:/tmp/sources/jtreg
+      - /tmp/sources/openjdk-workshop:/tmp/sources/openjdk-workshop
